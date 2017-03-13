@@ -7,7 +7,7 @@ import org.junit.Test;
 public class BracketTester{
 	
 	@Test
-	public void testNilStatement(){
+	public void testNull(){
 		boolean testCase = BracketValidator.bracketsComplete("");
 		assertTrue(testCase);
 	}
